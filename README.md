@@ -1,8 +1,6 @@
 # JMA-LoRA: Joint Multiplicative-Additive Low-Rank Adaptation for Cyberbullying Detection
 
-Code, notebooks and results for the paper *JMA-LoRA: Joint Multiplicative-Additive Low-Rank
-Adaptation for Cyberbullying Detection*, International Journal of Neural Systems.
-
+Code, notebooks and results for the paper JMA-LoRA: Joint Multiplicative-Additive Low-Rank Adaptation for Cyberbullying Detection, under review at the International Journal of Neural Systems.
 JMA-LoRA trains a multiplicative and an additive low-rank path together,
 
 ```
