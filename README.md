@@ -35,8 +35,7 @@ Every notebook uses the same protocol, so results are directly comparable.
 - Adapters on the query, key, value and output projections, with α = r
 - One epoch, class-weighted cross-entropy
 - Macro F1 primary, MCC secondary, AUC-ROC additionally on CB2
-- **Adapter ranks and checkpoints are selected on the validation partition. The test set is
-  evaluated once, for the selected configuration only.**
+- For Gemma-2-9B, adapter ranks, and checkpoints are selected on the validation partition, and the test set is evaluated once for the selected configuration only. For the other five models, the reported rank is the best test score, which is stated as a limitation in the paper.
 
 ## Repository layout
 
