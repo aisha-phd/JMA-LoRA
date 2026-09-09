@@ -20,10 +20,11 @@ Notebook outputs are retained, so the reported numbers can be read without re-ru
 | | Task | Unit | Samples | Test set |
 |---|---|---|---|---|
 | CB1 | 6-class | Tweet | 47,692 | 10,330 |
-| CB2 | Binary | Conversation | 89,525 | 20,346 |
+| CB2 | Binary | Message | 90,356 | 20,346 |
 
-CB1 is the SOSNet corpus (Wang et al., 2020); CB2 derives from Ejaz et al. (2024). Processed
-datasets: https://github.com/aisha-phd/Cyberbullying-Detection
+CB1 is the SOSNet corpus (Wang et al., 2020); CB2 derives from Ejaz et al. (2024). Both
+datasets are included in [`data/`](data/), with sources, citations and licence given in
+[`data/README.md`](data/README.md).
 
 ## Protocol
 
