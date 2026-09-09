@@ -42,12 +42,13 @@ Every notebook uses the same protocol, so results are directly comparable.
 
 ```
 notebooks/
-  01_ .. 07_*.ipynb           Gemma-2-9B on CB1, and the additional baselines
-  stage1_baselines/           prompting baselines
-  stage2_additive_lora/       additive LoRA, wider model sweep
-  stage3_multiplicative_lora/ multiplicative LoRA, wider model sweep
-  stage4_generalized_lora/    joint formulation, wider model sweep
-  multi_seed_validation/      earlier multi-seed run, superseded (see below)
+01_ .. 07_*.ipynb           Gemma-2-9B on CB1, and the additional baselines
+stage1_baselines/           prompting baselines
+stage2_additive_lora/       additive LoRA, wider model sweep
+stage3_multiplicative_lora/ multiplicative LoRA, wider model sweep
+stage4_generalized_lora/    joint formulation, wider model sweep
+multi_seed_validation/      earlier multi-seed run, superseded (see below)
+data/                         CB1 and CB2, see data/README.md
 results/                      result tables as CSV
 figures/                      framework diagram
 requirements.txt              pinned environment
